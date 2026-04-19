@@ -430,7 +430,7 @@ def _torneio(fitnesses, k):
 # ──────────────────────────────────────────────────────────────────────────────
 
 def otimizar_alocacao_equipa(dificuldades_etapas, configuracao_equipa,
-                              verbose=False):
+                              verbose=True):
     """
     Algoritmo Genético para resolver o Problema 2 (alocação de equipe).
 
